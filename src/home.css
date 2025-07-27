@@ -1,0 +1,10 @@
+
+.main{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile{
+    display: flex;
+}
