@@ -739,8 +739,8 @@ const Home = () => {
                             <div className="row">
 								{/* Mobile Number */}
                               <div className="col-lg-6 col-md-12" >
-                                <div className="mobile">
-                                  <label className="form-label text-danger">Mobile Number</label>
+                                <div className="mb-1">
+                                  <label className="form-label text-danger">Mobile Number:</label>
                                   <input 
                                     className="form-control " 
                                     type="text" 
@@ -755,7 +755,7 @@ const Home = () => {
                               {/* Full Name */}
                               <div className="col-lg-6 col-md-12">
                                 <div className="mb-1">
-                                  <label className="form-label text-danger">Full Name</label>
+                                  <label className="form-label text-danger">Full Name:</label>
                                   <input 
                                     className="form-control " 
                                     type="text" 
@@ -770,7 +770,7 @@ const Home = () => {
                               {/* Email ID */}
                               <div className="col-lg-6 col-md-12">
                                 <div className="mb-1">
-                                  <label className="form-label text-danger">Email ID</label>
+                                  <label className="form-label text-danger">Email ID:</label>
                                   <input 
                                     className="form-control " 
                                     type="email" 
@@ -785,7 +785,7 @@ const Home = () => {
                               {/* Date of Birth */}
                               <div className="col-lg-6 col-md-12">
                                 <div className="mb-1">
-                                  <label className="form-label text-danger">DOB</label>
+                                  <label className="form-label text-danger">DOB:</label>
                                   <input 
                                     className="form-control " 
                                     type="date" 
@@ -801,7 +801,7 @@ const Home = () => {
                               {/* Address */}
                               <div className="col-lg-6 col-md-12">
                                 <div className="mb-1">
-                                  <label className="form-label text-danger">Address</label>
+                                  <label className="form-label text-danger">Address:</label>
                                   <input 
                                     className="form-control " 
                                     type="text" 
@@ -816,7 +816,7 @@ const Home = () => {
                               {/* Province */}
                               <div className="col-lg-6 col-md-12">
                                 <div className="mb-1">
-                                  <label className="form-label text-danger">Province</label>
+                                  <label className="form-label text-danger">Province:</label>
                                   <input 
                                     className="form-control " 
                                     type="text" 
@@ -831,7 +831,7 @@ const Home = () => {
                               {/* City */}
                               <div className="col-lg-6 col-md-12">
                                 <div className="mb-1">
-                                  <label className="form-label text-danger">City</label>
+                                  <label className="form-label text-danger">City:</label>
                                   <input 
                                     className="form-control " 
                                     type="text" 
@@ -1040,7 +1040,7 @@ const Home = () => {
                       </Accordion>
                     </div>
 
-                    {/* Service Information Accordion */}
+                   {/* {/* Service Information Accordion */}
                     <div className="col-12">
                       <Accordion defaultActiveKey="-1">
                         <Accordion.Item eventKey="serviceInfo">
@@ -1209,9 +1209,9 @@ const Home = () => {
 												</button>
 												
 												<div className="dropdown">
-												  <button className="btn btn-secondary dropdown-toggle p-2 no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+												  {/* <button className="btn btn-secondary dropdown-toggle p-2 no-caret" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 													&#x22EE;
-												  </button>
+												  </button> */}
 												  <ul className="dropdown-menu">
 													<li>
 													  <button className="dropdown-item" onClick={() => setSelectedShape("circle")}><BsCircle size={18} /> Circle</button>
@@ -1228,7 +1228,7 @@ const Home = () => {
 												  </ul>
 												</div>
 												<button className="btn btn-secondary" onClick={saveCanvasWithShapes}>
-												  Save Snapshot with Shapes
+												  Save Snapshot
 												</button>
 
 												</>
